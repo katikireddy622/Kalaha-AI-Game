@@ -223,7 +223,7 @@ public class AIClient implements Runnable
         long startTime = System.currentTimeMillis();
         Move bestmove = new Move();
         // here 5 in the time for searching the max number in the tree
-        int maxtime = 0;
+        int maxtime = 5;
         while (maxtime >= ((double) (System.currentTimeMillis() - startTime) / (double) 1000)) {
             //it's a recursive function to check into the depth in this 12 is the depth
             Move newmove = MinMax(startSate, 12, max, min, startTime, -2000, 2000);
