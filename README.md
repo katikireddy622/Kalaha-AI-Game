@@ -1,4 +1,4 @@
-# Kalaha_AI_Game
+# Kalaha Game 
 
 Kalaha AI by Rahul Reddy Katiki Reddy
 
